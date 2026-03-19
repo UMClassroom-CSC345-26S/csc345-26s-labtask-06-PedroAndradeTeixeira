@@ -1,0 +1,11 @@
+Satisfiability Check:
+
+The axioms are consistent.
+
+Example model:
+- originof(linux) = unix
+- originof(osx) = unix
+- originof(windows) = dos
+- runs(mycomputer, osx)
+
+No contradictions arise.

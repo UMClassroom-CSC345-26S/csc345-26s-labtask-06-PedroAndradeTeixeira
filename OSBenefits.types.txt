@@ -1,0 +1,20 @@
+Typed TPTP verification:
+
+Types:
+- os
+- origin
+- computer
+
+Constants:
+- linux, windows, osx : os
+- unix, dos : origin
+- mycomputer : computer
+
+Functions:
+- originof : os -> origin
+
+Predicates:
+- runs(computer, os)
+- benefits(computer, origin)
+
+All terms are type-consistent. No type violations detected.
